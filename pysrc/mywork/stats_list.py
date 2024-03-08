@@ -9,8 +9,8 @@ class StatsList(StatsInterface):
         self.data.append(x)
 
     def get_mean(self) -> float:
-        # todo: implement
-        return 1.0
+        # todo: check correct edge-case handling
+        return sum(self.data) / len(self.data)
 
     def get_variance(self) -> float:
         # todo: implement

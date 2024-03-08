@@ -10,7 +10,7 @@ class StatsList(StatsInterface):
 
     def get_mean(self) -> float:
         # todo: implement
-        return 0.0
+        return 1.0
 
     def get_variance(self) -> float:
         # todo: implement

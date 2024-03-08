@@ -29,6 +29,7 @@ jobs:
       run: |
         cd pysrc
         pytest tests --cov=. # Run tests with coverage
+        cd ..
 
     - name: Lint with flake8
       run: |

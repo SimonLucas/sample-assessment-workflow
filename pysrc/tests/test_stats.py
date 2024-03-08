@@ -1,6 +1,6 @@
 import unittest
 
-from provided.stats_list import StatsList
+from mywork.stats_list import StatsList
 
 
 class TestStats(unittest.TestCase):

@@ -18,4 +18,4 @@ class StatsList(StatsInterface):
 
     def get_n(self) -> int:
         # todo: implement
-        return 0
+        return len(self.data)

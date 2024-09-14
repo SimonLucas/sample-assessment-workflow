@@ -24,6 +24,12 @@ class TestStats(unittest.TestCase):
         stats_list.add(2)
         self.assertEqual(stats_list.get_mean(), 1.5)
 
+    def test_mean_empty_list(self):
+        stats_list = StatsList()
+        # check it throws an ZeroDivisionError
+        with self.assertRaises(ZeroDivisionError):
+            stats_list.get_mean()
+
 
 if __name__ == '__main__':
     unittest.main()
